@@ -1,0 +1,430 @@
+{
+	"variables": [],
+	"info": {
+		"name": "OkTamam",
+		"_postman_id": "6f50fbc8-b50c-2cc5-b77b-9c7f254356fa",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_employee",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/employee/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "sss"
+			},
+			"response": [
+				{
+					"id": "43ad9603-a67f-4bba-b132-65ed1880362f",
+					"name": "get_employee",
+					"originalRequest": {
+						"url": "http://127.0.0.1:8000/api/employee/1",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 21 Feb 2020 16:19:56 GMT, Fri, 21 Feb 2020 16:19:56 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.7-2+ubuntu18.04.1+deb.sury.org+1",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "57",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 36,
+					"body": "{\"status\":200,\"data\":{\"id\":1,\"first_name\":\"Hamada\",\"last_name\":\"Abdelaziz\",\"email\":\"hamada.abdelaziz.dd@gmail.com\",\"phone\":\"01012345678\",\"company\":\"Oktamam\"},\"errors\":[]}"
+				}
+			]
+		},
+		{
+			"name": "get_company",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/company/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"company",
+						"5"
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "o4rn2DwZAaTFwKeTCwHrdVzbQRn8eYiFD6WuxQIa",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "sss"
+			},
+			"response": [
+				{
+					"id": "ebdc6309-01af-4527-9e40-66c5a68a1ac8",
+					"name": "get_company",
+					"originalRequest": {
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/company/5",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"company",
+								"5"
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "o4rn2DwZAaTFwKeTCwHrdVzbQRn8eYiFD6WuxQIa",
+									"disabled": true
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 21 Feb 2020 16:19:10 GMT, Fri, 21 Feb 2020 16:19:10 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.7-2+ubuntu18.04.1+deb.sury.org+1",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 44,
+					"body": "{\"status\":200,\"data\":{\"id\":5,\"name\":\"HZSoft\",\"email\":\"hzsoft@gmail.com\",\"logo\":\"http:\\/\\/127.0.0.1:8000\\/storage\\/1jbr59T70iJ6CG6juYj7tjUqJyqRIMu7U72lkUkj.png\",\"employees\":[{\"id\":2,\"first_name\":\"Malek\",\"last_name\":\"Hamada\",\"email\":\"malek.hamada@yahoo.com\",\"phone\":\"01112345678\",\"company_id\":5,\"created_at\":\"2020-02-21 16:07:37\",\"updated_at\":\"2020-02-21 16:07:37\"},{\"id\":3,\"first_name\":\"Omar\",\"last_name\":\"Hamada\",\"email\":\"omar.hh@gmail.com\",\"phone\":\"01212345678\",\"company_id\":5,\"created_at\":\"2020-02-21 16:08:19\",\"updated_at\":\"2020-02-21 16:08:19\"}]},\"errors\":[]}"
+				}
+			]
+		},
+		{
+			"name": "get_employees",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/employees",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {},
+				"description": "sss"
+			},
+			"response": [
+				{
+					"id": "9dcc2bd9-a981-406c-8383-924875afffea",
+					"name": "get_employees",
+					"originalRequest": {
+						"url": "http://127.0.0.1:8000/api/employees",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"description": ""
+							}
+						],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 21 Feb 2020 16:17:21 GMT, Fri, 21 Feb 2020 16:17:21 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.7-2+ubuntu18.04.1+deb.sury.org+1",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "59",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 110,
+					"body": "{\"status\":200,\"data\":[{\"id\":1,\"first_name\":\"Hamada\",\"last_name\":\"Abdelaziz\",\"email\":\"hamada.abdelaziz.dd@gmail.com\",\"phone\":\"01012345678\",\"company\":\"Oktamam\"},{\"id\":2,\"first_name\":\"Malek\",\"last_name\":\"Hamada\",\"email\":\"malek.hamada@yahoo.com\",\"phone\":\"01112345678\",\"company\":\"HZSoft\"},{\"id\":3,\"first_name\":\"Omar\",\"last_name\":\"Hamada\",\"email\":\"omar.hh@gmail.com\",\"phone\":\"01212345678\",\"company\":\"HZSoft\"},{\"id\":4,\"first_name\":\"mohamed\",\"last_name\":\"ahmed\",\"email\":\"mmm.aa@gmail.com\",\"phone\":\"01212121212\",\"company\":\"Oktamam\"}],\"errors\":[]}"
+				}
+			]
+		},
+		{
+			"name": "get_companies",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/companies",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "ddff555c-3980-43ff-b177-759f032a6431",
+					"name": "get_companies",
+					"originalRequest": {
+						"url": "http://127.0.0.1:8000/api/companies",
+						"method": "GET",
+						"header": [],
+						"body": {}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"_postman_previewtype": "text",
+					"header": [
+						{
+							"name": "cache-control",
+							"key": "cache-control",
+							"value": "no-cache, private",
+							"description": "Tells all caching mechanisms from server to client whether they may cache this object. It is measured in seconds"
+						},
+						{
+							"name": "connection",
+							"key": "connection",
+							"value": "close",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Fri, 21 Feb 2020 16:18:04 GMT, Fri, 21 Feb 2020 16:18:04 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "host",
+							"key": "host",
+							"value": "127.0.0.1:8000",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-powered-by",
+							"key": "x-powered-by",
+							"value": "PHP/7.3.7-2+ubuntu18.04.1+deb.sury.org+1",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						},
+						{
+							"name": "x-ratelimit-limit",
+							"key": "x-ratelimit-limit",
+							"value": "60",
+							"description": "Custom header"
+						},
+						{
+							"name": "x-ratelimit-remaining",
+							"key": "x-ratelimit-remaining",
+							"value": "58",
+							"description": "Custom header"
+						}
+					],
+					"cookie": [],
+					"responseTime": 43,
+					"body": "{\"status\":200,\"data\":[{\"id\":4,\"name\":\"Oktamam\",\"email\":\"admin@oktamam.com\",\"logo\":\"http:\\/\\/127.0.0.1:8000\\/storage\\/NSX0P8W6u380DAZCjzdkDNGTrh9YmMWbiLzac4nB.gif\",\"employees\":[{\"id\":1,\"first_name\":\"Hamada\",\"last_name\":\"Abdelaziz\",\"email\":\"hamada.abdelaziz.dd@gmail.com\",\"phone\":\"01012345678\",\"company_id\":4,\"created_at\":\"2020-02-21 16:07:07\",\"updated_at\":\"2020-02-21 16:07:07\"},{\"id\":4,\"first_name\":\"mohamed\",\"last_name\":\"ahmed\",\"email\":\"mmm.aa@gmail.com\",\"phone\":\"01212121212\",\"company_id\":4,\"created_at\":\"2020-02-21 16:08:46\",\"updated_at\":\"2020-02-21 16:08:46\"}]},{\"id\":5,\"name\":\"HZSoft\",\"email\":\"hzsoft@gmail.com\",\"logo\":\"http:\\/\\/127.0.0.1:8000\\/storage\\/1jbr59T70iJ6CG6juYj7tjUqJyqRIMu7U72lkUkj.png\",\"employees\":[{\"id\":2,\"first_name\":\"Malek\",\"last_name\":\"Hamada\",\"email\":\"malek.hamada@yahoo.com\",\"phone\":\"01112345678\",\"company_id\":5,\"created_at\":\"2020-02-21 16:07:37\",\"updated_at\":\"2020-02-21 16:07:37\"},{\"id\":3,\"first_name\":\"Omar\",\"last_name\":\"Hamada\",\"email\":\"omar.hh@gmail.com\",\"phone\":\"01212345678\",\"company_id\":5,\"created_at\":\"2020-02-21 16:08:19\",\"updated_at\":\"2020-02-21 16:08:19\"}]}],\"errors\":[]}"
+				}
+			]
+		}
+	]
+}
